@@ -7,6 +7,15 @@ Author: http://webthemez.com
 
 /* Reset
 ---------------------------------*/
+.animate{
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0, 0.99, 0.61, 0.99);
+    animation-delay: 0.10s;
+    animation-name: pulse;
+    animation-fill-mode: both;
+    color:white;
+}
 .module {
     background:
       linear-gradient(
@@ -35,6 +44,10 @@ Author: http://webthemez.com
     .profile{
         display: none;
     }
+    h4{
+        font-size: 16px;
+    }
+    .top_left_cont h2 {font-size: 25px;/* color: #FFF; */line-height: 39px;margin: 0 12px 9px 0;}
   }
 ul {
     list-style: none;
@@ -502,8 +515,8 @@ p {
 @media all and (max-width: 500px) and (min-width: 100px) {
 
  .top_left_cont p {
-    line-height: 22px;
-    font-size: 14px;
+    line-height: 20px;
+    font-size: 13px;
     letter-spacing: 0.6px;
  }
 
@@ -2407,7 +2420,7 @@ padding-top: 10px;
 .top_left_cont {
 padding: 38px 0;
 }
-.top_left_cont h2 {font-size: 25px;/* color: #FFF; */line-height: 39px;margin: 0 0 9px 0;}
+.top_left_cont h2 {font-size: 25px;/* color: #FFF; */line-height: 39px;margin: 0 12px 9px 0;}
 /* .top_left_cont h4 {font-size: 20px;color: #FFF;line-height: 30px;margin: 0 0 9px 0;} */
 .inner_section {
 padding: 20px 0 20px;
